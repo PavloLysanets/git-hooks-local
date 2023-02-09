@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo Bingo!!
+
+exit 1

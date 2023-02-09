@@ -1,0 +1,13 @@
+#!/bin/sh
+
+regex='p.lysanets@aimprosoft.com'
+email=$GIT_AUTHOR_EMAIL
+
+if [[ $email == $regex ]];
+then
+    echo Your email $email satisfies
+    exit 0
+else 
+    echo  "Your email $email doesn't satisfy"
+    exit 1  
+fi
